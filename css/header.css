@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+}
+
+.header-container {
+    width: 1120px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 25px 15px;
+}
+
+
+.header-menu > ul > li {
+    list-style-type: none;
+    padding-right: 40px; 
+    color: #161c2d;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.home {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+
+.header-menu > ul > li:hover {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity));
+    transition-duration: 0.3s;
+}
+
+.header-btn > ul > li {
+    list-style-type: none;
+    border-radius: 100%;
+    padding: 5px 10px;
+}

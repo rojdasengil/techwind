@@ -1,0 +1,32 @@
+@import"header.css";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "nunito";
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
