@@ -1,4 +1,5 @@
 @import"header.css";
+@import"our-creativity.css";
 
 * {
     padding: 0px;
@@ -30,3 +31,6 @@
     flex-direction: column;
 }
 
+.container {
+    width: 1103px;
+}

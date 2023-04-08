@@ -15,10 +15,11 @@
 
 .header-menu > ul > li {
     list-style-type: none;
-    padding-right: 40px; 
-    color: #161c2d;
+    padding-right: 40px;
     cursor: pointer;
     transition-duration: 0.3s;
+    --tw-text-opacity: 1;
+    color: rgb(22 28 45 / var(--tw-text-opacity));
 }
 
 .home {
