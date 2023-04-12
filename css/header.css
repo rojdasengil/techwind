@@ -1,15 +1,10 @@
-.header {
-    width: 100%;
-}
-
 .header-container {
-    width: 1120px;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5rem;
     letter-spacing: 1px;
-    padding: 25px 15px;
+    padding: 25px 0;
 }
 
 .header-menu > ul > li {
@@ -17,23 +12,20 @@
     margin-right: 30px;
     cursor: pointer;
     transition-duration: 0.3s;
-    --tw-text-opacity: 1;
-    color: rgb(22 28 45 / var(--tw-text-opacity));
+    color: rgb(22 28 45);
 }
 
 .home {
-    --tw-text-opacity: 1;
-    color: rgb(79 70 229 / var(--tw-text-opacity));
+    color: rgb(79 70 229);
     margin-right: 18px;
 }
 
 .header-menu > ul > li:hover {
-    --tw-text-opacity: 1;
-    color: rgb(79 70 229 / var(--tw-text-opacity));
+    color: rgb(79 70 229);
     transition-duration: 0.3s;
 }
 
-.header-btn > a {
+.header-btn-container > a {
     text-decoration: none;
     border-radius: 100%;
     padding: 5px 10px;
@@ -42,33 +34,27 @@
     font-size: 14px;
 }
 
-.gear-ıcon {
+.header-btn {
     border-width: 1px;
     height: 25px;
     width: 15px;
-    --tw-text-opacity: 1;
-    color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+
+.gear-icon {
+    color: rgb(79 70 229);
     background-color: rgb(79 70 229 / 0.05);
     border: 0.5px solid rgb(79 70 229 / 0.1);
-    border-radius: 9999px;
     margin-right: 4px;
     transition-duration: 0.5s;
 }
 
-.cart-shopping-ıcon {
-    border-width: 1px;
-    height: 25px;
-    width: 15px;
-    --tw-bg-opacity: 1;
-    background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+.gear-icon:hover {
+    background-color: rgb(79 70 229);
+    color: rgb(255 255 255);
+    transition-duration: 0.5s;
 }
 
-.gear-ıcon:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(79 70 229 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-    transition-duration: 0.5s;
+.cart-shopping-icon {
+    background-color: rgb(79 70 229);
+    color: rgb(255 255 255);
 }
