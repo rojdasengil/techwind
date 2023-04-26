@@ -1,0 +1,17 @@
+.brand-img > img {
+    width: 72.34px;
+    height: 24px;
+}
+
+.brands {
+    padding: 24px 0;
+}
+
+.hr {
+    border-top: 1px solid #7d879c;
+    border-color: rgb(243 244 246 );
+}
+
+.brands-content {
+    margin-top: 16px;
+}
